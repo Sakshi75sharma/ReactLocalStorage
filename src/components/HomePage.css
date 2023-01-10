@@ -1,0 +1,196 @@
+body {
+    background-color: #FAF9F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    color: rgb(19, 167, 128);
+    font-weight: bold;
+    margin-left: 80px; 
+}
+
+.bar {
+   margin-left: 260px;
+}
+
+.bar li {
+    padding: 14px;
+}
+ span {
+    bottom: 2px;
+    color: rgb(19, 167, 128);
+ }
+
+button{
+    
+    width: fit-content;
+    background-color: rgb(19, 167, 128);
+    border-top-left-radius: 20px !important; 
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important; 
+   
+    margin-left: 290px;
+    border-top-right-radius: 20px !important; 
+    width: 110px;
+ }
+button i {
+    bottom: 0.2px;
+}
+button span {
+    color: white;
+    
+}
+.second {
+    display: block;
+}
+
+.home {
+    position: relative;
+}
+
+.home .homedetails {
+    position: absolute;
+    margin:  60px 25px auto 90px;
+    display: inline-block;
+}
+
+.home .heading h1 {
+    font-weight: bolder;
+    font-size: xxx-large;
+    text-align: left;
+    line-height: 0.5;
+    letter-spacing: 1px;
+    
+    
+}
+
+.home .heading p{
+    text-align: left;
+    margin: 20px 0;
+}
+
+
+svg {
+    position: absolute;
+    left:870px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius:20px ;
+    
+
+}
+
+.button {
+    width: fit-content;
+    
+}
+
+.button a {
+   
+    border-style: solid;
+    border-width: 1px;
+    border-color: orangered;
+    border-radius: 20px;
+    margin-right: 20px;
+    
+}
+
+.button1 {
+    color: white;
+    background-color: orangered;
+}
+
+.button2 {
+    color: orangered;
+}
+.counter {
+    font-size: small;
+    
+}
+.third {
+    position: absolute;
+    top: 550px;
+    left: -20px
+    
+
+}
+
+.colmn{
+    margin: 0;
+    background: rgb(28,189,231);
+    background: linear-gradient(90deg, rgba(28,189,231,1) 0%, rgb(253, 252, 252) 85%, rgb(251, 252, 253) 100%);;
+}
+.col1 {
+    background-color: rgb(33, 32, 32);
+    margin: 20px;
+    margin-left: 120px;
+    
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 8px;
+
+}
+
+.col2 {
+    background-color: rgb(33, 32, 32);
+    margin: 20px;
+    margin-left: 160px;
+    
+    margin-right: 0px;
+    border-radius: 8px;
+    color: rgb(232, 232, 232);
+    text-align: center;
+    padding: 0;
+    padding-top: 8px;
+    
+}
+
+.trial {
+    position: absolute;
+    top: -5px;
+    left: 900px;
+    display: flex;
+    flex-direction: column;
+    
+    text-align: left;
+    width: 100%;
+}
+.heading1 h2 {
+    position: absolute;
+    top: 880px;
+    left: 650px
+}
+.cardsec {
+    display: flex;
+    margin-top: 830px;
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+
+.card1, .card2, .card3 {
+    margin: auto 30px;
+    margin-top: 60px;
+    
+}
+
+img{
+    width: 240px;
+    height: 400px;
+}
+
+.carddetail {
+    position: absolute;
+    top: 250px;
+    backdrop-filter: blur(8px);
+    color: white;
+    padding: 40px;
+    text-align: left;
+}
+
+.carddetail h5{
+    color: rgb(19, 167, 128);
+}
